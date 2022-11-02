@@ -1,4 +1,4 @@
-require "./person"
+require './person'
 
 class Student < Person
   attr_reader :classroom
@@ -9,7 +9,7 @@ class Student < Person
   end
 
   def play_hooky
-    "¯(ツ)/¯"
+    '¯(ツ)/¯'
   end
 
   def classroom=(classroom)
